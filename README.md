@@ -1,10 +1,10 @@
 ## Meta-Guided Sample Reweighting for Robust Cross-Modal Hashing Retrieval with Noisy labels
 
-PyTorch implementation for Meta-Guided Sample Reweighting for Robust Cross-Modal Hashing Retrieval with Noisy labels. (AAAI 2026). 
+PyTorch implementation for Meta-Guided Sample Reweighting for Robust Cross-Modal Hashing Retrieval with Noisy labels. (AAAI 2026)
 
 ## MGSH framework
 
-Overview of the MGSH framework. The framework consists of three main components: (1) Feature Extraction: A dual-stream encoder processes training and meta samples to obtain modality-specific representations. (2) Bi-level Network Architecture: Based on the meta-importance weights, the main model \( \mathcal{F}_{\Theta} \) computes a robust hashing loss function, while the meta model \( \mathcal{G}_{\Phi} \) reweights the samples and provides the updated weights to the main model. (3) Meta Pipeline: The meta-learning process updates the parameters of both models, enabling robust sample reweighting and adaptive margin adjustment.
+Overview of the MGSH framework. The framework consists of three main components: (1) Feature Extraction: A dual-stream encoder processes training and meta samples to obtain modality-specific representations. (2) Bi-level Network Architecture: Based on the meta-importance weights, the main model **$\mathcal{F}_{\Theta}$** computes a robust hashing loss function, while the meta model **$ \mathcal{G}_{\Phi} $**reweights the samples and provides the updated weights to the main model. (3) Meta Pipeline: The meta-learning process updates the parameters of both models, enabling robust sample reweighting and adaptive margin adjustment.
 
 ![MGSH_framework](figure/MGSH_framework.png)
 
