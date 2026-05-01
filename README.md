@@ -45,8 +45,10 @@ You can download MIRFlickr-25K dataset dataset from [here](https://drive.google.
 ![experiment](figure/experiment.png)
 
 📚 Citation
-If you find our work useful, please cite our paper as:
+If you find our work useful, please cite our  AAAI 2026 paper as:
 
+
+```bibtex
 @inproceedings{tan2026meta,
   title={Meta-Guided Sample Reweighting for Robust Cross-Modal Hashing Retrieval with Noisy Labels},
   author={Tan, Ziang and An, Weitao and Yang, Erkun},
@@ -56,3 +58,4 @@ If you find our work useful, please cite our paper as:
   pages={9350--9358},
   year={2026}
 }
+```
