@@ -46,7 +46,7 @@ You can download MIRFlickr-25K dataset dataset from [here](https://drive.google.
 
 ## Citation
 
-If you find our work useful, please cite our  AAAI 2026 paper as:
+If you like our work , please cite our  AAAI 2026 paper as:
 
 
 ```bibtex
